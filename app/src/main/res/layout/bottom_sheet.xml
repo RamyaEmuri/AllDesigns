@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/size_30"
+        >
+
+        <TextView
+            android:layout_width="@dimen/size_90"
+            android:layout_height="@dimen/size_1"
+            android:background="#BDBDBD"
+            android:layout_marginLeft="@dimen/size_20"
+            android:layout_marginTop="@dimen/size_14"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ask?"
+            android:layout_marginLeft="@dimen/size_50"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/size_20sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="@dimen/size_90"
+            android:layout_height="@dimen/size_1"
+            android:layout_marginTop="@dimen/size_14"
+            android:layout_marginLeft="@dimen/size_50"
+            android:background="#BDBDBD"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/size_16"
+        android:paddingRight="@dimen/size_16">
+<TextView
+    android:id="@+id/heading1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Has anyone tried their bags?"
+    android:textSize="@dimen/size_18sp"
+    android:textColor="#000000"
+    android:layout_marginTop="@dimen/size_10"/>
+
+        <TextView
+            android:id="@+id/heaing2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_2"
+            android:text="The store has a decent collection of bags. i had bought one 6 month ago.they have been washed couple of times..."
+            android:textColor="#616161"
+            android:lineSpacingExtra="@dimen/size_2"
+            android:textSize="@dimen/size_13sp"
+            android:layout_marginBottom="@dimen/size_10"
+
+            />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_1"
+    android:background="#BDBDBD"
+    android:layout_marginTop="@dimen/size_5"
+    />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do they have Spring 17 Collections?"
+            android:textSize="@dimen/size_18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="@dimen/size_10"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_2"
+            android:textColor="#616161"
+            android:lineSpacingExtra="@dimen/size_2"
+            android:textSize="@dimen/size_13sp"
+            android:layout_marginBottom="@dimen/size_5"
+            android:text="I visted the store on jan and they didn't have them yet.\nThey told that they would arrive by mid of march."
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/question_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_50"
+        android:layout_marginTop="@dimen/size_10"
+        android:background="#D84315"
+        android:text="View all Q and A(14)"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/size_16sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/size_20"
+        android:layout_marginBottom="@dimen/size_10">
+<ImageView
+    android:layout_width="@dimen/size_30"
+    android:layout_height="@dimen/size_30"
+    android:src="@drawable/reporticon"
+    android:layout_marginLeft="@dimen/size_120"
+    android:scaleType="fitXY"
+   />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report"
+            android:textSize="@dimen/size_18sp"
+            android:textColor="#757575"
+            android:layout_marginLeft="@dimen/size_10"
+            android:layout_marginTop="@dimen/size_3"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
